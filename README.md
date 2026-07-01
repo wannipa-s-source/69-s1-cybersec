@@ -2,7 +2,7 @@
 
 ## My Information
 - Wannipa Sakprom
-- Student ID : 056860405XXX-X
+- Student ID : 0568604050XX-X
 ## Cyber Security Course Expectations
 - Know how hackers think and spot different types of cyber attacks (like Phishing or Malware).
 - Learn how to protect networks, encrypt data, and use firewalls like a pro.
