@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: 69-s1-db
+    ports:
+      - 54327:5432
+    environment:
+      - POSTGRES_PASSWORD=vv137084vv
+      - POSTGRES_USER=wannipa
+      - POSTGRES_DB=wannipa
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+  admin:
+    image: dpage/pgadmin4
+    container_name: 69-s1-admin
+    ports:
+      - 8080:80
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=wannipasakprom2547@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=adminpassword
