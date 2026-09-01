@@ -6,11 +6,11 @@ GET http://localhost:9092/admin/auth/register-admin
 content-type: application/json
 
 {
-  "firstName": "",
-  "lastName": "",
-  "email": "",
-  "password": "",
-  "confirmPassword": ""
+  "firstName": "wannipa",
+  "lastName": "sakprom",
+  "email": "wannipasakprom2547@gmail.com",
+  "password": "VV137084vv",
+  "confirmPassword": "VV137084vv"
 }                                    
 
 ###login
@@ -18,8 +18,8 @@ POST http://localhost:9092/admin/login
 content-type: application/json
 
 {
-  "email": "",
-  "password": "",
+  "email": "wannipasakprom2547@gmail.com",
+  "password": "VV137084vv",
   "rememberMe": "false"
 }
 
@@ -32,7 +32,7 @@ POST http://localhost:9092/admin/forgot-password
 content-type: application/json
 
 {
-  "email": ""
+  "email": "wannipasakprom2547@gmail.com"
 }
 
 # ==========================================
@@ -44,9 +44,9 @@ POST http://localhost:9092/api/auth/local/register
 content-type: application/json
 
 {
-  "username": "",
-  "email": "",
-  "password": ""
+  "username": "wewilly",
+  "email": "wewilly7084@gmail.com",
+  "password": "wewilly04"
 }
 
 ###user-login
@@ -54,8 +54,8 @@ POST http://localhost:9092/api/auth/local
 content-type: application/json
 
 {
-  "identifier": "",
-  "password": ""
+  "identifier": "wewilly7084@gmail.com",
+  "password": "wewilly04"
 }
 
 ###user-profile
@@ -67,5 +67,5 @@ POST http://localhost:9092/api/auth/forgot-password
 content-type: application/json
 
 {
-  "email": ""
+  "email": "wannipasakprom2547@gmail.com"
 }
